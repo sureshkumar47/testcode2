@@ -1,0 +1,5 @@
+select * from Customer where Name like "joe%"
+
+select name from Product join customer on customer.name==product.name  
+
+select count(price) from  customer where customer.name="Joe";
